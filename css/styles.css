@@ -152,16 +152,20 @@ img {
 }
 
 .button {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  min-width: 200px;
+  height: 50px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--title-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .portfolio-button {
@@ -215,6 +219,11 @@ img {
 }
 
 .title {
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
