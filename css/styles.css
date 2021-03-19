@@ -60,9 +60,38 @@ img {
 .header {
   width: 1600px;
   background-color: var(--title-color);
+  border: 1px solid #ececec;
+}
+
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-section {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.header-connection {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -70,6 +99,8 @@ img {
 }
 
 .logo {
+  margin-right: 93px;
+
   font-family: var(--logo-font);
   color: var(--accent-color);
   text-decoration: none;
@@ -88,6 +119,10 @@ img {
 }
 
 .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -161,11 +196,16 @@ img {
   color: var(--second-text-color);
 }
 
+.list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .list,
 .list-connection {
-  list-style: none;
+  display: flex;
   padding-left: 0;
   margin: 0;
+  list-style: none;
 }
 
 .item-list {
