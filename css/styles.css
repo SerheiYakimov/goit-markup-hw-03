@@ -49,6 +49,7 @@ h5,
 h6,
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
@@ -167,7 +168,6 @@ img {
   display: inline-block;
   min-width: 200px;
   height: 50px;
- 
 
   font-weight: 700;
   font-size: 16px;
@@ -196,6 +196,10 @@ img {
   background-color: var(--dark-bg-color);
 }
 
+.bg-title {
+  width: 1600px;
+}
+
 .bg-title .main-dg-color {
   background-color: var(--main-bg-color);
 }
@@ -204,6 +208,8 @@ img {
 }
 
 .list-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -228,7 +234,8 @@ img {
 }
 
 .item-list {
-  padding-top: 10px;
+  min-width: 270px;
+
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-text-color);
@@ -236,7 +243,7 @@ img {
 
 .title {
   margin-bottom: 30px;
-  
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
