@@ -215,6 +215,10 @@ img {
   margin-right: 50px;
 }
 
+.list .item-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .list,
 .list-connection {
   display: flex;
@@ -224,6 +228,7 @@ img {
 }
 
 .item-list {
+  padding-top: 10px;
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-text-color);
