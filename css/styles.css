@@ -72,6 +72,18 @@ img {
   margin-right: auto;
 }
 
+.dark-bg-title > .conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.bg-title > .conteiner {
+  padding-top: 94px;
+}
+
 .header-section {
   display: flex;
 }
@@ -153,10 +165,9 @@ img {
 
 .button {
   display: inline-block;
-  align-items: center;
-  text-align: center;
   min-width: 200px;
   height: 50px;
+ 
 
   font-weight: 700;
   font-size: 16px;
@@ -219,11 +230,8 @@ img {
 }
 
 .title {
-  padding-top: 200px;
-  padding-right: 452px;
-  padding-bottom: 280px;
-  padding-left: 452px;
-
+  margin-bottom: 30px;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
