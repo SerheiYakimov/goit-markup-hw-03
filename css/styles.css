@@ -8,6 +8,7 @@
   --second-bg-color: #f5f4fa;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --logo-font: 'Raleway', sans-serif;
+  --grid-item: 1;
 }
 
 html {
@@ -74,6 +75,19 @@ img {
   margin-right: auto;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.grid-item {
+  flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .dark-bg-title > .conteiner {
   display: flex;
   flex-direction: column;
@@ -84,7 +98,8 @@ img {
 }
 
 .bg-title-features > .conteiner,
-.bg-title-work > .conteiner {
+.bg-title-work > .conteiner,
+.second-bg-color > .conteiner {
   padding-top: 94px;
 }
 
@@ -156,6 +171,14 @@ img {
   color: var(--accent-color);
 }
 
+.list-item {
+  --grid-item: 3;
+}
+
+.team-item {
+  --grid-item: 4;
+}
+
 .list-connection:hover,
 .list-connection:focus {
   color: var(--accent-color);
@@ -200,7 +223,8 @@ img {
 }
 
 .bg-title-features,
-.bg-title-work {
+.bg-title-work,
+.second-bg-color {
   width: 1600px;
 }
 
@@ -271,19 +295,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.grid-link {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 .portfolio-title {
