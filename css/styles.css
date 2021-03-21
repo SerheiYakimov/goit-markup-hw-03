@@ -77,6 +77,7 @@ img {
 .dark-bg-title > .conteiner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin-bottom: 0;
@@ -244,7 +245,12 @@ img {
   color: var(--main-text-color);
 }
 
+.hero {
+  min-height: 100vh;
+}
+
 .title {
+  max-width: 696px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -265,6 +271,12 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.grid {
+}
+
+.grid-link {
 }
 
 .portfolio-title {
