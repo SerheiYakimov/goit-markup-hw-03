@@ -414,3 +414,30 @@ img {
 .list-connection-items {
   margin-top: 9px;
 }
+
+.projects {
+  padding-bottom: 94px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-top: -30px;
+}
+
+.grid-item,
+.grid-project {
+  flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.card-portfolio-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio-text {
+  margin-top: 4px;
+}
