@@ -87,27 +87,6 @@ img {
   margin-top: 30px;
 }
 
-.grid-button {
-  flex-wrap: wrap;
-  margin-right: -8px;
-  margin-top: -8px;
-}
-
-.grid-button-item {
-  flex-basis: calc((100% - 8px * var(--grid-item)) / var(--grid-item));
-  margin-right: 8px;
-  margin-top: 8px;
-}
-
-.dark-bg-title > .conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 0;
-}
-
 .bg-title-features > .conteiner,
 .bg-title-work > .conteiner,
 .second-bg-color > .conteiner {
@@ -257,6 +236,7 @@ img {
   color: var (--second-text-color);
   background-color: var(--second-bg-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .dark-bg-title,
@@ -267,7 +247,8 @@ img {
 
 .bg-title-features,
 .bg-title-work,
-.second-bg-color {
+.second-bg-color,
+.main-bg-color {
   width: 1600px;
 }
 
@@ -294,6 +275,10 @@ img {
 
 .list .item-list:not(:last-child) {
   margin-right: 30px;
+}
+
+.list .button-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .link-work {
