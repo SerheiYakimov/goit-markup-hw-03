@@ -62,7 +62,7 @@ img {
 .header {
   width: 1600px;
   background-color: var(--title-color);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .conteiner {
@@ -104,18 +104,7 @@ img {
 
 .header-section {
   display: flex;
-}
-
-.header-navigation {
-  display: flex;
   align-items: center;
-  margin-left: 0;
-}
-
-.header-connection {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
 }
 
 .nav-logo {
@@ -140,6 +129,12 @@ img {
   font-family: var(--logo-font);
   color: #000000;
   text-decoration: none;
+}
+
+.list-contact {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
 }
 
 .light-logo {
@@ -268,6 +263,10 @@ img {
 }
 
 .list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.list-contact .item:not(:last-child) {
   margin-right: 50px;
 }
 
