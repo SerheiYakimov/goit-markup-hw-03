@@ -67,8 +67,6 @@ img {
 
 .conteiner {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 
   margin-left: auto;
   margin-right: auto;
@@ -232,17 +230,25 @@ img {
   border-radius: 4px;
 }
 
+.dark-bg-title {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .dark-bg-title,
 .dark-bg-footer {
-  width: 1600px;
   background-color: var(--dark-bg-color);
 }
 
+.dark-bg-title,
 .bg-title-features,
 .bg-title-work,
 .second-bg-color,
+.dark-bg-footer,
 .main-bg-color {
   width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .bg-title .main-bg-color {
@@ -300,7 +306,6 @@ img {
 }
 
 .hero {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
