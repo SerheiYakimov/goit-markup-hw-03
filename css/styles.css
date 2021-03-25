@@ -171,10 +171,6 @@ img {
   --grid-item: 4;
 }
 
-.card {
-  display: flex;
-}
-
 .card-content {
   padding: 30px;
 }
