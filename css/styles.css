@@ -85,6 +85,12 @@ img {
   margin-top: 30px;
 }
 
+.grid-project {
+  flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
 .bg-title-features > .conteiner,
 .bg-title-work > .conteiner,
 .second-bg-color > .conteiner {
@@ -169,6 +175,10 @@ img {
   --grid-item: 4;
 }
 
+.project-item {
+  --grid-item: 3;
+}
+
 .list-connection:hover,
 .list-connection:focus {
   color: var(--accent-color);
@@ -241,7 +251,6 @@ img {
 
 .main-bg-color {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .bg-title .main-bg-color {
@@ -380,6 +389,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.card-content {
+  padding: 20px;
+}
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -427,19 +440,6 @@ img {
   margin-top: 9px;
 }
 
-/*.grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: -30px;
-}*/
-
-.grid-project {
-  flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
-  margin-right: 30px;
-  margin-top: 30px;
-}
-
 .card-portfolio-content {
   padding-top: 20px;
   padding-right: 24px;
@@ -448,6 +448,7 @@ img {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+}
 
 .portfolio-text {
   margin-top: 4px;
