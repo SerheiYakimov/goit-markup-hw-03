@@ -91,13 +91,9 @@ img {
   padding-top: 94px;
 }
 
-.second-bg-color > .conteiner {
-  padding-bottom: 94px;
-}
-
+.second-bg-color > .conteiner,
 .main-bg-color > .conteiner {
-  display: flex;
-  justify-content: center;
+  padding-bottom: 94px;
 }
 
 .header-section {
@@ -203,13 +199,6 @@ img {
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 4px;
-}
-
-.filter-buttons {
-  padding-top: 94px;
-  padding-bottom: 34px;
-  align-items: center;
-  justify-content: center;
 }
 
 .portfolio-button {
@@ -376,6 +365,12 @@ img {
 
 .list-connection-footer {
   display: block;
+}
+
+.button-list {
+  justify-content: center;
+  padding-top: 94px;
+  margin-bottom: 34px;
 }
 
 .team-item {
