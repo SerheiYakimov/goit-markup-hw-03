@@ -169,10 +169,6 @@ img {
   --grid-item: 4;
 }
 
-.card-content {
-  padding: 30px;
-}
-
 .list-connection:hover,
 .list-connection:focus {
   color: var(--accent-color);
@@ -241,6 +237,11 @@ img {
 .dark-bg-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.main-bg-color {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .bg-title .main-bg-color {
@@ -369,7 +370,6 @@ img {
 
 .button-list {
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 34px;
 }
 
@@ -427,18 +427,13 @@ img {
   margin-top: 9px;
 }
 
-.projects {
-  padding-bottom: 94px;
-}
-
-.grid {
+/*.grid {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-}
+}*/
 
-.grid-item,
 .grid-project {
   flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
   margin-right: 30px;
@@ -447,8 +442,12 @@ img {
 
 .card-portfolio-content {
   padding-top: 20px;
+  padding-right: 24px;
   padding-bottom: 20px;
-}
+  padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 
 .portfolio-text {
   margin-top: 4px;
