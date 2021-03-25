@@ -131,6 +131,8 @@ img {
 
 .list-contact {
   display: flex;
+
+  padding-left: 0;
   margin-left: auto;
   list-style: none;
 }
@@ -247,6 +249,11 @@ img {
   padding-right: 15px;
 }
 
+.dark-bg-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .bg-title .main-bg-color {
   background-color: var(--main-bg-color);
 }
@@ -281,7 +288,8 @@ img {
 }
 
 .list,
-.list-connection {
+.list-connection,
+.list-connection-footer {
   display: flex;
   padding-left: 0;
   margin: 0;
@@ -355,6 +363,8 @@ img {
 
 .list-connection {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   text-decoration: none;
   font-weight: 500;
@@ -362,6 +372,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.list-connection-footer {
+  display: block;
 }
 
 .team-item {
