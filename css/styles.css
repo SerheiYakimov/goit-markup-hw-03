@@ -22,6 +22,7 @@ html {
 }
 
 body {
+  width: 1600px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -60,14 +61,14 @@ img {
 }
 
 .header {
-  width: 1600px;
   background-color: var(--title-color);
   border-bottom: 1px solid #ececec;
 }
 
 .conteiner {
   width: 1200px;
-
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -133,9 +134,10 @@ img {
 
 .list-contact {
   display: flex;
-
-  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
   margin-left: auto;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -233,7 +235,7 @@ img {
   background-color: var(--dark-bg-color);
 }
 
-.dark-bg-title,
+/*.dark-bg-title,
 .bg-title-features,
 .bg-title-work,
 .second-bg-color,
@@ -242,7 +244,7 @@ img {
   width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
-}
+}*/
 
 .dark-bg-footer {
   padding-top: 60px;
@@ -286,17 +288,21 @@ img {
   margin-right: 8px;
 }
 
+.list-connection-footer .list-connection-items:not(:first-child) {
+  margin-top: 9px;
+}
+
 .list,
 .list-connection,
 .list-connection-footer {
   display: flex;
   padding-left: 0;
-  margin: 0;
+  margin-bottom: 0;
   list-style: none;
 }
 
 .item-list {
-  max-width: 270px;
+  width: 270px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -375,11 +381,12 @@ img {
 
 .list-connection-footer {
   display: block;
+  margin-top: 9px;
 }
 
 .button-list {
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .team-item {
@@ -391,6 +398,7 @@ img {
 
 .card-content {
   padding: 20px;
+  background-color: var(--title-color);
 }
 
 .team-member {
@@ -436,15 +444,12 @@ img {
   padding-top: 60px;
 }
 
-.list-connection-items {
-  margin-top: 9px;
-}
-
 .card-portfolio-content {
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+  background-color: var(--title-color);
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
