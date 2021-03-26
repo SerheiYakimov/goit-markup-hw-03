@@ -23,6 +23,9 @@ html {
 
 body {
   width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -92,14 +95,14 @@ img {
   margin-top: 30px;
 }
 
-.bg-title-features > .conteiner,
-.bg-title-work > .conteiner,
-.second-bg-color > .conteiner {
+.bg-title-features {
   padding-top: 94px;
 }
 
-.second-bg-color > .conteiner,
-.main-bg-color > .conteiner {
+.bg-title-work,
+.second-bg-color,
+.main-bg-color {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -132,7 +135,9 @@ img {
   text-decoration: none;
 }
 
-.list-contact {
+.list-nav,
+.list-contact,
+.list-features {
   display: flex;
   margin-bottom: 0;
   margin-top: 0;
@@ -235,24 +240,9 @@ img {
   background-color: var(--dark-bg-color);
 }
 
-/*.dark-bg-title,
-.bg-title-features,
-.bg-title-work,
-.second-bg-color,
-.dark-bg-footer,
-.main-bg-color {
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
-}*/
-
 .dark-bg-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.main-bg-color {
-  padding-top: 94px;
 }
 
 .bg-title .main-bg-color {
@@ -272,7 +262,7 @@ img {
   color: var(--second-text-color);
 }
 
-.list .item:not(:last-child) {
+.list-nav .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -280,7 +270,7 @@ img {
   margin-right: 50px;
 }
 
-.list .item-list:not(:last-child) {
+.list-features .item-list:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -386,6 +376,7 @@ img {
 
 .button-list {
   justify-content: center;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
